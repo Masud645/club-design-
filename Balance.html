@@ -1,0 +1,309 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<title>club website</title>
+<link rel="stylesheet"
+href="https://cdnjs.
+cloudflare.com/ajax/libs
+/font-awesome/5.13.0/css/
+all.min.css">
+<link rel="stylesheet" href="club.css">
+
+<style type="text/css">
+.login{
+margin-top :50px ;
+}
+
+/*form*/
+.login{
+text-align:center ;
+background-color:#dde3e7;
+padding :60px 0px ;
+}
+
+.full{
+width:90%; height:500px;
+margin:20px auto ;
+border-radius:20px ;
+padding :10px ;
+box-shadow: 2px 2px 5px black, 
+ -5px -4px 4px #ffffff;
+
+text-align:center ;
+background-color:#dde3e7;
+}
+.r{
+font-family:"Times New Roman", Times, serif;
+color:#6C131B;  ;
+text-decoration :underline ;
+margin-bottom :30px ;
+}
+label {
+font-weight:bold ;
+font-size :20px ;
+font-family :"Times New Roman", Times, serif;
+color:blue ;
+}
+
+input[type=text]{
+width:150px ; height:30px ;
+color:red;
+ text-align:center ;
+ border:none;
+ outline :none ;
+ background:none ;
+ border-radius:8px ;
+ margin-left:65px ;
+ box-shadow: inset 1px 1px 5px black,
+ inset -3px -5px 4px white;
+margin-bottom :5px ;
+}
+.btm{
+margin-top :5px ;
+margin-bottom :5px ;
+}
+input[type=email]{
+width:150px ; height :30px ;
+ border:none ;
+ text-align:center ;
+ border-radius:8px ;
+ outline:none ;
+ background:none ;
+ color:red;
+ margin-left:40px ;
+ box-shadow: inset 1px 1px 5px black,
+ inset -3px -5px 4px white;
+}
+input[type=password]{
+width:150px ;height:30px ;
+ text-align:center ;
+ border:none;
+ outline :none ;
+ background:none ;
+ color:red;
+ border-radius:8px ;
+ margin-top:5px ;
+ margin-left:25px ;
+  box-shadow: inset 1px 1px 5px black,
+  inset -3px -5px 4px white;
+}
+input[type=radio]{
+width:15px ;
+margin-top :10px ;
+ margin-left:60px ;
+}
+select, option{
+width:150px ;height:30px ;
+ text-align:center ;
+ border:none;
+ outline :none ;
+ background:none ;
+ 
+ border-radius:8px ;
+ margin-top:5px ;
+ margin-left:20px ;
+  color:green  ;
+  font-weight:900;
+  box-shadow: inset 1px 1px 5px black,
+  inset -3px -5px 4px white;
+}
+input[type=date]{
+width:150px ;height:30px ;
+ text-align:center ;
+ border:none;
+ outline :none ;
+ color:red;
+ background:none ;
+ border-radius:8px ;
+ margin-top:5px ;
+
+ margin-left:35px ;
+  color :black  ;
+  box-shadow: inset 1px 1px 5px black,
+  inset -3px -5px 4px white;
+}
+input[type=number]{
+width:153px ;height:30px ;
+ text-align:center ;
+ border:none;
+ outline :none ;
+ background:none ;
+ color:red ;
+ border-radius:8px ;
+ margin-top:5px ;
+
+ margin-left:60px ;
+  box-shadow: inset 1px 1px 5px black,
+  inset -3px -5px 4px white;
+}
+textarea {
+width:155px ;
+ 
+ border:none;
+ outline :none ;
+ background:none ;
+ color:red ;
+ border-radius:8px ;
+ margin-top:5px ;
+
+margin-left:60px ;
+ box-shadow: inset 1px 1px 5px black,
+ inset -3px -5px 4px white;
+}
+input[type=submit]{
+width:80px ;
+background:none ;
+border:none ;
+outline:none ;
+border-radius:10px ;
+padding :5px ;
+ margin-top:20px ;
+ margin-left:220px ;
+  color:green  ;
+  font-weight :bold ;
+  font-family :"Times New Roman", Times, serif;
+  box-shadow: 1px 1px 3px #333,
+  -2.5px -2px 4px  white;
+}
+input[type=reset]{
+width:80px ;
+padding :5px ;
+ text-align:center ;
+ border:none;
+ outline :none ;
+ background:none ;
+ border-radius:10px ;
+font-family :"Times New Roman", Times, serif;
+font-weight:bold ;
+ margin-top:-50px ;
+ margin-left:20px ;
+  color:red;
+  box-shadow: 1px 1px 3px #333,
+  -2.5px -2px 4px  white;
+position :relative ;
+top:-20px ;
+}
+
+
+</style>
+
+</head>
+  <body> 
+  <div id="mySidenav" class="sidenav"> 
+  <a href="javascript:void(0)" 
+  class="closebtn" 
+  onclick="closeNav()">&times;
+  </a> 
+<div class="menu-contant">
+<h2>ত্রিশুলিয়া যুব<br> সংঘ স্কয়ার ক্লাব</h2>
+</div>
+<br>
+  <a href="club.html">🏠 হোম</a>
+  <a href="club-notice.html">🕒 নোটিস বোর্ড</a> 
+  <a href="#">💡 আমাদের সেবা</a> 
+  <a href="#">💸 ব্যলেন্স দেখুন</a> 
+  <a href="#">♻ যোগাযোগ করুন </a> 
+  <a href="login.html">↪ লগইন করুন</a>
+ 
+  </div> 
+  
+
+  
+  <div class ="header">
+
+  <div class="menu left" style="font-size:30px;
+  cursor: pointer"
+  onclick="openNav()">☰
+  </div> 
+
+<div class="logo right">
+ <img src="/storage/emulated/0/pictures/lgo6.jpg">
+ </div>
+  </div>
+  
+<script> /* Set the width of the side navigation to 250px */
+ function openNav() { document.getElementById("mySidenav") .style.width="250px"; } function closeNav() { document.getElementById("mySidenav") .style.width = "0"; } 
+ </script> 
+ 
+ 
+ 
+
+<div class="login">
+<div class="full">
+<form action="action_page.php">
+<h2 class="r">ত্রিশুলিয়া যুব
+সংঘ স্কয়ার ক্লাব</h2>
+<label>নাম :</label>
+<input type="text" name="firstname"><br>
+<!--
+<label>:</label>
+<input class="btm" type="text" ><br>
+-->
+<label>ই-মেইল :</label>
+<input type="email"><br>
+<label>পাসওয়ার্ড :</label>
+<input type ="password"><br>
+<label>দেশের নাম :</label>
+<select>
+<option>আমেরিকা</option>
+<option>পাকিস্তান</option>
+<option>সৌদি আরব</option>
+<option selected >বাংলাদেশ</option>
+<option>ইটালী</option>
+</select><br>
+<label>জন্মদিন :</label>
+<input type="date"><br>
+<label>বয়স :</label>
+<input type="number" min="10" max="30"><br>
+
+<label>লিঙ্গ :</label>
+<input type="radio" name="gender" value ="female ">নারী
+<input class="r" type="radio" name="gender" value ="female " checked="">পুরুষ<br>
+
+<label>মেসেজ :</label>
+<textarea rows="6" cols="0"></textarea>
+
+<input type="submit" value="লগইন">
+<input type="reset" value="মুছে ফেলুন">
+
+</form>
+</div>
+</div>
+
+
+
+ <!-- important link -->
+ <div class="link coronai">
+ <div class="jogajog lw">
+ <p class="ll">গুরুর্তপূর্ন লিঙ্ক সমূহ :~</p>
+ </div>
+ <ul>
+ <li><a href="https://www.teachers.gov.bd">শিক্ষক বাতায়ন</a></li>
+ <li><a href="http://bn.banglapedia.org/index.php?title=%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF_%E0%A6%A4%E0%A6%A5%E0%A7%8D%E0%A6%AF_%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A6%BF%E0%A6%B8#">
+ কৃষি তথ্য সার্ভিস
+ </a></li>
+ <li><a href="https://dghs.gov.bd/index.php/bd/e-health/2013-06-18-09-06-38/433-mobile-phone-health-service">
+ মোবাইল ফোনে স্বাস্থ্য সেবা
+ </a></li>
+ <li><a href="http://onlinebanglanewspaperlist.com/index.php">সকল পত্রিকা ও টিভি চ্যানেল</a></li>
+ </ul>
+ </div>
+ 
+ <div class="footer center">
+ <div class="social-m">
+ <span><a href="https://www.facebook.com/profile.php?id=100013894803780" ><i class="fab fa-facebook-f"></i></a></span>
+  <span><a href="www.twitter.com" ><i class="fab fa-twitter"></i></a></span>
+   <span><a href="www.instagram" ><i class="fab fa-instagram"></i></a></span>
+    <span><a href="www.pinterest-p.com" ><i class="fab fa-pinterest-p"></i></a></span>
+ </div>
+  <p><span><i class="fas fa-mobile-alt"></i></span> মোবাইল: 01774379645</p>
+ <p><span><i class="fas fa-map-marker-alt"></i></span> ঠিকানা: Atwari Upazila, Panchagarh.</p>
+ <p><span><i class="fas fa-envelope-square"></i></span> ই-মেইল: masudranabd2022@gmaile.com</p>
+ <p>
+© সাইটটি শেষ হাল-নাগাদ করা হয়েছে: ২০২০-১১-০১ ১৬:১৪:২২
+ </p>
+ 
+ </div>
+ 
+</body> 
+</html> 
